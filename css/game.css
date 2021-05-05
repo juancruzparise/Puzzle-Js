@@ -1,0 +1,63 @@
+#puzzle{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    width: 200px;
+    margin: auto;
+    margin-right: 810px;
+    margin-top:10px;
+  }
+  #puzzle img{
+    width: 190px;
+    box-sizing: content-box;
+  }
+  #puzzle2{
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    width: 200px;
+    margin: auto;
+    margin-right: 750px;
+  }
+  #puzzle2 img{
+    width: 150px;
+    box-sizing: content-box;
+  }
+  .select{
+    outline: 2px solid #48C9B0;
+    outline-offset: -2px;
+  }
+  .navgame{
+      margin: 0;
+      margin-top: 70px;
+  }
+  #homegame{
+    background-color: #F6F6F6;
+    width: 75%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: -30px;
+    border-radius: 10px;
+  }
+  #win{
+    text-align: center;
+    font-size: 2em;
+  }
+  #audiowin {
+    display: none;
+  }
+  #audiolose{
+    display: none;
+  }
+
+  .allimages{
+    display: flex;
+  }
+ .w3-button{
+   margin-top: 20px;
+ }
+ .final_div_game{
+   margin-top: 30px;
+ }
+
+
+ 
+

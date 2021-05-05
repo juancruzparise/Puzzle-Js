@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="icon" href="image/icons/puzzle_icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>Puzzle</title>
+</head>
+<body id="bodygame">
+  <!-- Header -->
+    <header class="header">
+        <div id="menuArea">
+            <input type="checkbox" id="menuToggle"></input>
+          <label for="menuToggle" class="menuOpen">
+            <div class="open"></div>
+          </label>
+          
+          <div class="menu menuEffects">
+            <label for="menuToggle"></label>
+            <div class="menuContent">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="game.html">Puzzle</a></li>
+                <li><a href="credits.html">Credits</a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+    </header>
+    <!-- Aca comienza el juego -->
+    <h1 class="tittlehome"> Puzzle </h1>
+    <section id="homegame">
+        <div class="navgame"> 
+          <!-- Sección con el juego y sus botones -->
+          <div class="container">
+            <input  onclick="darkMode()" type="checkbox" id="switch" />
+            <label class="label_switch" for="switch">Toggle</label>
+        </div> 
+        <div class="buttons_div">
+          <!-- Botones -->
+            <a href="game.html"><button class="w3-button w3-teal"> Other picture</button></a>
+            <a href="game_puzzle2.html"><button class="w3-button w3-teal"> Restart</button></a>
+            <button  class="w3-button w3-teal" id="myBtn">See full image</button>
+          </div>
+            </div>
+            <audio id="audiowin" controls>
+                <source type="audio/mp3" src="Sound/you_win.mp3">
+            </audio>
+          </div>
+        <!-- Imagenes del puzzle con la funcion para seleccionarlas -->
+          <div id="puzzle">
+            <table>
+              <tr>
+                <td><img id="img_0" src="image/images2/image_0.jpg" onclick="selectImage(0)" /></td>
+                <td><img id="img_1" src="image/images2/image_1.jpg" onclick="selectImage(1)" /></td>
+                <td><img id="img_2" src="image/images2/image_2.jpg" onclick="selectImage(2)" /></td>
+                <td><img id="img_3" src="image/images2/image_3.jpg" onclick="selectImage(3)" /></td>
+              </tr>
+              <tr>
+                <td><img id="img_4" src="image/images2/image_4.jpg" onclick="selectImage(4)" /></td>
+                <td><img id="img_5" src="image/images2/image_5.jpg" onclick="selectImage(5)" /></td>
+                <td><img id="img_6" src="image/images2/image_6.jpg" onclick="selectImage(6)" /></td>
+                <td><img id="img_7" src="image/images2/image_7.jpg" onclick="selectImage(7)" /></td>
+              </tr>
+              <tr>
+                <td><img id="img_8" src="image/images2/image_8.jpg" onclick="selectImage(8)" /></td>
+                <td><img id="img_9" src="image/images2/image_9.jpg" onclick="selectImage(9)" /></td>
+                <td><img id="img_10" src="image/images2/image_10.jpg" onclick="selectImage(10)" /></td>
+                <td><img id="img_11" src="image/images2/image_11.jpg" onclick="selectImage(11)" /></td>
+              </tr>
+            </table>
+          </div>
+          <!-- Info tp -->
+        <div class="final_div_game">
+          <p class="infotp">TP1 Javascript - Profesor : Giancarlo Brusca</p>
+        </div>
+    </section>
+   
+</body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+            
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p class="p_modal">Full picture</p>
+        <img src="image/images2/rickandmorty.jpg" class="imagecomplete"alt="imagen de rick and morty">
+      </div>
+        <script src="js/game-main2.js"></script>
+        <script src="js/switch.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

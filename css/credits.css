@@ -1,0 +1,37 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.tittle_credits{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2em;
+    text-decoration: underline 2px  teal;
+}
+.info_tp{
+    text-align: center;
+    font-size: 1.4em;
+    opacity: 1;
+    color: #697477;
+    visibility: visible;
+}
+.info_tp2{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: -20px;
+    opacity: 1;
+    color: #697477;
+    visibility: visible;
+}
+.info_me {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    opacity: 1;
+    color: #697477;
+    visibility: visible;
+}
+.div_tp{
+    margin-top: 50px;
+}

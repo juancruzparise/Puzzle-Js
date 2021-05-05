@@ -1,0 +1,110 @@
+.container{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 30px;
+    float: right;
+    margin-right: 20px;
+
+  }
+input[type=checkbox]{
+     height: 0;
+     width: 0;
+     visibility: hidden;
+     background: white;
+  }
+ .label_switch {
+      cursor: pointer;
+      text-indent: -9999px;
+      width: 100px;
+      height: 50px;
+      background-image: linear-gradient( 111.4deg,  rgba(247,118,1,1) -0.1%, rgba(248,155,0,1) 52.4%, rgba(254,196,98,1) 101.2% );
+      display: block;
+      border-radius: 100px;
+      position: relative;
+  }
+  .label_switch:after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 32px;
+      height:32px;
+      /* background: #fff; */
+      border-radius: 40px;
+      transition: 0.3s;
+      background-image: url(../image/icons/sun.png);
+    }
+  input:checked + .label_switch {
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+
+    }
+  input:checked + .label_switch:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+      background-image: url(../image/icons/moon.png);
+  }
+  .label_switch:active:after {
+      width: 60px;
+  }
+
+  .pagination{
+     margin-left: 250px;
+  }
+  .dark-mode {
+    background-color: #132A3F;
+    color: #F6F6F6;
+  }
+  .dark-mode #homegame{
+    background-color: transparent;
+    color: #F6F6F6;
+  }
+  
+  /* MODAL WITH IMAGE COMPLETE */
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  /* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 20px;
+}
+.p_modal{
+  font-size: 2em;
+  text-align: center;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.imagecomplete{
+  margin-left: 270px;
+  height:450px;
+  
+}
+ 
