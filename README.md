@@ -1,7 +1,7 @@
 # Tp1_AppMoviles
 
 El juego basicamente es un puzzle.
-Para mover las fotos basta con hacer un click en la que queremos mover y otro click a donde queremos llevarla. Con otro click sobre la primera imagen la deseleccionamos.
+Para mover las fotos basta con hacer un click en la que queremos mover y otro click a donde queremos llevarla. Con otro click sobre la primera imagen la desmarcamos.
 Cree algunas funciones como selectImage() que la use para seleccionar la foto y llevarla a la posicion que quiera, entre otras.
 El juego cuando se completa sale un mensaje de ganaste en forma de alert y tambien hay un sonido asi que ojo si tienen el volumen alto :)
 Hay botones como restart , other picture ,see full image y tambien un switch para poner el juego en modo oscuro.
